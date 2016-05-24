@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+
+        .navbar {
+            background: rgb(255, 200, 255);
+            margin-bottom: 0;
+            border: 0;
+        }
+        .jumbotron {
+
+            background:rgb(255, 200, 255);
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">메뉴</a></li>
+            <li><a href="#name">이름</a></li>
+            <li><a href="#food">좋아하는 음식</a></li>
+            <li><a href="#hobby">취미</a></li>
+            <li><a href="#table">시간표</a></li>
+            <li><a href="#댓글">댓글 달러가기</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h1>홍선표</h1>
+        <p>it응용시스템공학과</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+
+        <h1 id="name"> <span class="glyphicons glyphicons-user"></span>이름</h1>
+    <a href="http://www.hansung.ac.kr/web/www/home">한성대학교</a>
+    <p> 169052<br> it응용시스템공학과<br> 홍선표</p>
+
+<div class="col-md-4">
+    <h1 id="hobby"><span class="glyphicons glyphicons-star"></span>취미</h1>
+    <p>배드민턴</p>
+    <img src="배드민턴%20사진.jpg" width="200px">
+
+</div>
+</div>
+<div class="col-md-4">
+    <h1 id="food">좋아하는 음식</h1>
+    <select>
+        <option>밥</option>
+        <option>빵</option>
+        <option>면</option>
+        <option>고기</option>
+        <option>채소</option>
+        <option>그외</option>
+    </select>
+    <img src="음식사진.jpg" width="200px" >
+</div>
+    </div>
+
+
+<div class="row">
+    <div class="col-md-6">
+    <h1 id="table">시간표</h1>
+    <table border="1">
+        <tr>
+            <th>주간</th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th>
+            <th>금</th>
+        </tr>
+        <tr>
+            <th>1교시</th>
+            <td rowspan="6">     </td>
+            <td rowspan="2">웹프로그래밍</td>
+            <td>     </td>
+            <td>영커</td>
+            <td>     </td>
+        </tr>
+        <tr>
+            <th>2교시</th>
+
+            <td rowspan="2">영커</td>
+            <td rowspan="2">     </td>
+            <td rowspan="2">소프트웨어의 이해</td>
+        </tr>
+        <tr>
+            <th>3교시</th>
+            <td rowspan="5">     </td>
+        </tr>
+        <tr>
+            <th>4교시</th>
+            <td>  </td>
+            <td>웹프로그래밍</td>
+            <td rowspan="4">  </td>
+        </tr>
+        <tr>
+            <th>5교시</th>
+            <td rowspan="2">사고와표현</td>
+            <td rowspan="2">대학수학</td>
+        </tr>
+        <tr>
+            <th>6교시</th>
+        </tr>
+        <tr>
+            <th>7교시</th>
+            <td>c프로그래밍</td>
+            <td> </td>
+            <td rowspan="3"></td>
+        </tr>
+        <tr>
+            <th>8교시</th>
+            <td rowspan="2">  </td>
+            <td rowspan="2">인간관계의 이해</td>
+            <td rowspan="2">c프로그래밍</td>
+            <td rowspan="2">현대생활과 통계학</td>
+        </tr>
+        <tr>
+            <th>9교시</th>
+        </tr>
+    </table>
+        </div>
+
+
+<div class="col-md-6">
+    <h1 id="댓글">댓글 달기</h1>
+    <legend>댓글 입력하기</legend>
+    <textarea cols=" 50 "rows=" 5"></textarea>
+    <input type="submit">
+    </div>
+</div>
+
+
+</body>
+</html>
